@@ -28,8 +28,8 @@ hbs.registerHelper('mizHelper',()=>{ //function to run inside hbs files inside o
 app.get('/',(request, response)=>{
 // response.send(`<h1>Hello there, this is my homepage  </h1>`);
 response.render('homepage.hbs',{
-  mizchanger:'this is 2017',
-  mizvartwo: 'this is 2018 actually'
+  mizchanger:'this is 2089',
+  mizvartwo: 'this is 20998 actually'
 });
 });
 
