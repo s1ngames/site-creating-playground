@@ -1,7 +1,7 @@
 const express = require('express');
 const hbs = require('hbs');
 
-var port = 3000;//deafult local host
+var port = process.env.PORT || 3000;//deafult local host
 var app = express();  //init express
 
 hbs.registerPartials(__dirname+'/views/partials');//set folder of the partials files (.hbs) while __dirname is the relative folder
